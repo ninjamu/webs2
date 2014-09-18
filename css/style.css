@@ -5,6 +5,10 @@ header{
 	text-align: center;
 	color: green;
 }
+#home{
+	display: inline-block;
+	width: 100%;
+}
 .container{
 	width: 1170px;
 	padding-right: 15px;
@@ -48,17 +52,24 @@ header{
 	margin-left: auto;
 	margin-right: auto;
 	width: 90%
+	pointer:relative;
+	color: gray;
+	padding-bottom: 10px;
+	padding-top: 10px;
 }
 .menuitem li{
 	border-top: 1px solid;
 	border-bottom: 1px solid;
-	color: rgb(229,229,229);
 }
 .menuitem li:hover{
-	background-color: rgb(25,25,25);
+	background-color: gold;
 }
-.cloneitem{
+.cloneitem , .cloneitem2{
 	display: none;
+	position: absolute;
+}
+.cloneitem .cloneitem1{
+	display: inline-block;
 }
 .spaimg{
 	float: left;
@@ -97,9 +108,12 @@ footer{
 	background-color: rgb(178,178,178);
 	padding-top: 10px;
 	padding-bottom: 10px;
+	display: inline-block;
+	width: 100%;
 }
 #thespa{
 	display: inline-block;
+	width: 100%;
 }
 #thespa{
 	width: 100%;
@@ -220,6 +234,7 @@ footer{
 #contact{
 	width: 100%;
 	display: inline-block;
+	padding-bottom: 20px;
 }
 .texttp3{
 	margin-left: 400px;
@@ -249,4 +264,7 @@ footer{
 	padding-top: 10px;
 	padding-left: 10px;
 	padding-bottom: 10px;
+}
+#thespa,#treatments,#membership,#aboutus,#contact {
+	display: none;
 }
