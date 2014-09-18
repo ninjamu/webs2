@@ -1,0 +1,117 @@
+body{
+	margin: 0;
+}
+header{
+	text-align: center;
+	color: green;
+}
+.container{
+	width: 1170px;
+	padding-right: 15px;
+	padding-left: 15px;
+	margin-right: auto;
+	margin-left: auto;
+}
+.container1{
+	text-align: center;
+	padding-top: 20px;
+}
+.imglogo{
+	float: left;
+	padding-left: 350px;
+	padding-top: 20px;
+}
+.textlogo{
+	padding-right: 500px;
+	padding-top: 20px;
+}
+.menubar li{
+	float: left;
+	list-style: none;
+	padding-left: 35px;
+	padding-right: 35px;
+}
+.menubar{
+	width: 80%;
+	text-align: center;
+	margin-right: auto;
+	margin-left: auto;
+}
+#menu{
+	padding-top: 50px;
+}
+.menuitem{
+	text-align: center;
+	border-color: gray;
+	height: 17px;
+	cursor: pointer;
+	margin-left: auto;
+	margin-right: auto;
+	width: 90%
+}
+.menuitem li{
+	border-top: 1px solid;
+	border-bottom: 1px solid;
+	color: rgb(229,229,229);
+}
+.menuitem li:hover{
+	background-color: rgb(25,25,25);
+}
+.cloneitem{
+	display: none;
+}
+.spaimg{
+	float: left;
+}
+.textspa{
+	float: left;
+	font-size: 12px;
+	width: 30%;
+	margin-left: 20px;
+}
+.spa .container{
+	padding-top: 10px;
+}
+.texttp1{
+	float: left;
+	width: 20%;
+}
+.texttp1 h2{
+	color: green;
+}
+.texttp2 p{
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+footer{
+	background-color: rgb(178,178,178);
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+#thespa{
+	display: inline-block;
+}
+#thespa{
+	width: 100%;
+}
+.textthespa1{
+	width: 80%;
+	margin-left: auto;
+	margin-right: auto;
+}
+.textthespa{
+	background-color: rgb(229,229,229);
+}
+.imgtp{
+	float: left;
+	width: 30%;
+	height: 250px;
+	padding-right: 20px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+.imgtp img{
+	width: 100%;
+	height: 100%;
+	border :8px solid rgb(229,229,229);
+}
