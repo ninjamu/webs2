@@ -63,14 +63,24 @@ header{
 .spaimg{
 	float: left;
 }
+.imgthespa{
+	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+}
+.textthespa1{
+	width: 80%;
+	margin-left:auto;
+	margin-right: auto;
+}
+.colimg{
+	width: 100%;
+}
 .textspa{
 	float: left;
 	font-size: 12px;
 	width: 30%;
 	margin-left: 20px;
-}
-.spa .container{
-	padding-top: 10px;
 }
 .texttp1{
 	float: left;
@@ -94,18 +104,14 @@ footer{
 #thespa{
 	width: 100%;
 }
-.textthespa1{
-	width: 80%;
-	margin-left: auto;
-	margin-right: auto;
-}
 .textthespa{
 	background-color: rgb(229,229,229);
+	width: 96%
 }
 .imgtp{
 	float: left;
 	width: 30%;
-	height: 250px;
+	height: 200px;
 	padding-right: 20px;
 	padding-top: 20px;
 	padding-bottom: 20px;
@@ -114,4 +120,64 @@ footer{
 	width: 100%;
 	height: 100%;
 	border :8px solid rgb(229,229,229);
+}
+.imgat{
+	float: left;
+	width: 47%;
+	background-color: rgb(229,229,229);
+	margin-right: 10px;
+	margin-bottom: 10px;
+}
+.imgtm{
+	float: left;
+	width: 40%;
+	height: 150px;
+	padding-right: 10px;
+}
+.imgtm img{
+	height: 100%;
+	width: 100%;
+}
+#treatments{
+	width: 100%;
+	display: inline-block;
+}
+.texttm{
+	margin-top: -15px;
+}
+.texttm h3,p{
+	font-size: 14px;
+	color: gray;
+	margin-top: -15px;
+}
+.texttm p{
+	margin-top: 10px;
+}
+.imgatext{
+	width: 100%;
+	height: 100px;
+}
+#treatments .textthespa1{
+	padding-top: 10px;
+}
+.imgmb{
+	float: left;
+	margin-right: 30px;
+	width: 45%;
+	height: 400px;
+}
+.imgmb img{
+	width: 100%;
+	height : 100%;
+	border : 8px solid;
+	border-color: rgb(229,229,229);
+}
+#membership{
+	display: inline-block;
+	width: 100%;
+	padding-bottom: 100px;
+}
+.memberimg{
+	width: 96%;
+	margin-top: 30px;
 }
